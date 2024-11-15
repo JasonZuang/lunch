@@ -1,0 +1,98 @@
+/* HashBrown.module.css */
+body {
+    background-color: #000000; /* Black background color */
+    color: #00ff00; /* Green text color for terminal look */
+    font-family: 'Courier New', Courier, monospace; /* Terminal font */
+  }
+  
+  .hashbrown {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #00ff00; /* Green border color */
+    border-radius: 8px;
+    max-width: 400px;
+    margin: 20px auto;
+    background-color: #000000; /* Black background color for the component */
+    color: #00ff00; /* Green text color for terminal look */
+  }
+  
+  .hashbrown h1 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    color: #00ff00; /* Green text color */
+    text-shadow: 1px 1px 2px #000000; /* Black outline */
+  }
+  
+  .hashbrown form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .hashbrown label {
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #00ff00; /* Green text color */
+    text-shadow: 1px 1px 2px #000000; /* Black outline */
+  }
+  
+  .hashbrown input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #00ff00; /* Green border color */
+    border-radius: 4px;
+    background-color: #000000; /* Black background color */
+    color: #00ff00; /* Green text color */
+    font-family: 'Courier New', Courier, monospace; /* Terminal font */
+  }
+  
+  .hashbrown button {
+    padding: 10px;
+    background-color: #00ff00; /* Green button color */
+    color: #000000; /* Black text color */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace; /* Terminal font */
+  }
+  
+  .hashbrown button:hover {
+    background-color: #00cc00; /* Slightly darker green for hover effect */
+  }
+  
+  #response {
+    display: none;
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  #response h2 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: #00ff00; /* Green text color */
+    text-shadow: 1px 1px 2px #000000; /* Black outline */
+  }
+  
+  #response p {
+    font-family: 'Courier New', Courier, monospace; /* Terminal font */
+    font-size: 1.2em;
+    color: #00ff00; /* Green text color */
+    text-shadow: 1px 1px 2px #000000; /* Black outline */
+  }
+  
+  #copyButton {
+    padding: 10px;
+    background-color: #00ff00; /* Green button color */
+    color: #000000; /* Black text color */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace; /* Terminal font */
+  }
+  
+  #copyButton:hover {
+    background-color: #00cc00; /* Slightly darker green for hover effect */
+  }
+  
