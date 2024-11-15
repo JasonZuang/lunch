@@ -3,7 +3,8 @@
     "react-scripts": "^5.0.1",
     "typescript": "^4.9.5"
   },
-  "scripts": { 
+  "scripts": 
+  { 
     "build": "react-scripts build", 
     "build:azure": "react-scripts build"
   }
