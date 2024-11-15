@@ -6,5 +6,8 @@
   "scripts": {
     "build": "react-scripts build",
     "build:azure": "react-scripts build"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11"
   }
 }
