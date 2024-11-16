@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import styles from './HashBrown.module.css';
 
 const HashBrown: React.FC = () => {
-  const [input, setInput] = useState('');
   const [hashOutput, setHashOutput] = useState('');
 
   const calcHash = async (value: string): Promise<string> => {
@@ -33,7 +32,6 @@ const HashBrown: React.FC = () => {
     const inputElement = document.getElementById('inputData') as HTMLInputElement;
     const inputText: string = inputElement.value;
     const hash = await calcHash(inputText);
-    setInput(inputText);
     setHashOutput(hash);
     inputElement.value = '';
 
