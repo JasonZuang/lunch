@@ -24,9 +24,8 @@ jobs:
         with:
           node-version: '18.x'
       - name: Install Dependencies
-        run: |
-          cd breakfast-app
-          npm install
+        run: npm install
+        working-directory: lunch/breakfast-app
       - name: Build And Deploy
         id: builddeploy
         uses: Azure/static-web-apps-deploy@v1
