@@ -7,7 +7,7 @@ const HashBrown: React.FC = () => {
   const calcHash = async (value: string): Promise<string> => {
     try {
         console.log(value);
-        const response = await fetch('https://breakfastatjimmys.azurewebsites.net/hashbrown', {
+        const response = await fetch('https://breakfastatjimmys-aghah5hzecbggbfs.westus-01.azurewebsites.net/hashbrown', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
